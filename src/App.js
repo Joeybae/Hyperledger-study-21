@@ -15,11 +15,11 @@ class Subject extends Component {
 class Nav extends Component {
   render(){
     return(
-      <nav>
+      <nav className="menu">
         <ul>
-            <li><a href="1.html">HTML</a></li>
-            <li><a href="2.html">CSS</a></li>
-            <li><a href="3.html">JavaScript</a></li>
+            <li><a href="1.html" class="menuLink">HTML</a></li>
+            <li><a href="2.html" class="menuLink">CSS</a></li>
+            <li><a href="3.html" class="menuLink">JavaScript</a></li>
         </ul>
       </nav>
     );
